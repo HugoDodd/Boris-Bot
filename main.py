@@ -82,7 +82,7 @@ async def change_status():
 @tasks.loop(hours=168)
 async def send_weekly_message():
     message_channel = client.get_channel(485035231724699659)
-    await message_channel.send("<@&745591167193841749>" + random.choice(vote_message))
+    await message_channel.send("<@&745591167193841749>" + " /tts" + random.choice(vote_message))
 
 keep_alive()
 client.run(os.getenv('Token'))
