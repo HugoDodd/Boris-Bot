@@ -51,18 +51,18 @@ status = [
 
 vote_message = [
           " Weekly scrim vote (vote tory)",
-          " When does everyone want to scrim this week? I think Wednesday is POG"
+          " When does everyone want to scrim this week? I think Wednesday is POG",
           " To quote the Margret Thatcher, 'Defeat? I do not recognise the meaning of the word'. I think that sums up team doublecross very well. On that note, when do you want to scrim this week?"
-          " Scrim vote for this week"
-          " Any scrimmers? If so what day?"
-          " Boris reccommends at least 2 scrims this week! What days shall I put down for you"
-          " META promised me if i get 7 votes for a scrim one one day today, it will be a POG scrim. VOTE!!!"
-          " Remember everyone, vote! (for your scrim this week)"
-          " This weeks scrims will be different to normal, you will be practicing brawl...oh wait. Vote for what days you want!!"
-          " As the iron lady once said, 'I love argument. I love debate.' On that note, when do you want to scrim this week?"
+          " Scrim vote for this week",
+          " Any scrimmers? If so what day?",
+          " Boris reccommends at least 2 scrims this week! What days shall I put down for you",
+          " META promised me if i get 7 votes for a scrim one one day today, it will be a POG scrim. VOTE!!!",
+          " Remember everyone, vote! (for your scrim this week)",
+          " This weeks scrims will be different to normal, you will be practicing brawl...oh wait. Vote for what days you want!!",
+          " As the iron lady once said, 'I love argument. I love debate.' On that note, when do you want to scrim this week?",
           " I like a bourbon like I like my scrims - existent! When do you want to scrim this week?"
-          " LingLing likes to flank, I like to run the country and Team Doublecross likes to scrim. When are you scrimming this week?"
-          " Remember to vote kids! (on when you want to scrim this week)"
+          " LingLing likes to flank, I like to run the country and Team Doublecross likes to scrim. When are you scrimming this week?",
+          " Remember to vote kids! (on when you want to scrim this week)",
           " I like kids but I also like it when Team Doublecross scrims. When are you scrimming this week?",
           " If we get 7 votes on a scrim this week Truth will heal for the whole scrim",
           ]
