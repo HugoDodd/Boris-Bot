@@ -73,12 +73,12 @@ async def on_ready():
   
 @tasks.loop(minutes=30)
 async def change_status():
-    await client.change_presence(activity=discord.Game(random.choose(status)))
+    await client.change_presence(activity=discord.Game(random.choice(status)))
 
 @tasks.loop(hours=168)
 async def send_weekly_message():
     message_channel = client.get_channel(485035231724699659)
-    await message_channel.send(random.choose(vote_message).format(client.team.mention))
+    await message_channel.send(random.choice(vote_message).format(client.team.mention))
 
 keep_alive()
 client.run(os.getenv('Token'))
