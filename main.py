@@ -3,7 +3,7 @@ import os
 import discord
 from keep_alive import keep_alive
 from discord.ext import tasks
-from itertools import cycle
+from discord.utils import get
 
 status = [
           "Rule Britannia!",
@@ -46,21 +46,21 @@ status = [
           "Listening to Holy by Bieber and the NHS choir"]
 
 vote_message = [
-          "Weekly scrim vote (vote tory)",
-          "When does everyone want to scrim this week? I think Wednesday is POG"
-          "To quote the Margret Thatcher, 'Defeat? I do not recognise the meaning of the word'. I think that sums up team doublecross very well. On that note, when do you want to scrim this week?"
-          "Scrim vote for this week"
-          "Any scrimmers? If so what day?"
-          "Boris reccommends at least 2 scrims this week! What days shall I put down for you"
-          "META promised me if i get 7 votes for a scrim one one day today, it will be a POG scrim. VOTE!!!"
-          "Remember everyone, vote! (for your scrim this week)"
-          "This weeks scrims will be different to normal, you will be practicing brawl...oh wait. Vote for what days you want!!"
-          "As the iron lady once said, 'I love argument. I love debate.' On that note, when do you want to scrim this week?"
-          "I like a bourbon like I like my scrims - existent! When do you want to scrim this week?"
-          "LingLing likes to flank, I like to run the country and Team Doublecross likes to scrim. When are you scrimming this week?"
-          "Remember to vote kids! (on when you want to scrim this week)"
-          "I like kids but I also like it when Team Doublecross scrims. When are you scrimming this week?",
-          "If we get 7 votes on a scrim this week Truth will heal for the whole scrim",
+          " Weekly scrim vote (vote tory)",
+          " When does everyone want to scrim this week? I think Wednesday is POG"
+          " To quote the Margret Thatcher, 'Defeat? I do not recognise the meaning of the word'. I think that sums up team doublecross very well. On that note, when do you want to scrim this week?"
+          " Scrim vote for this week"
+          " Any scrimmers? If so what day?"
+          " Boris reccommends at least 2 scrims this week! What days shall I put down for you"
+          " META promised me if i get 7 votes for a scrim one one day today, it will be a POG scrim. VOTE!!!"
+          " Remember everyone, vote! (for your scrim this week)"
+          " This weeks scrims will be different to normal, you will be practicing brawl...oh wait. Vote for what days you want!!"
+          " As the iron lady once said, 'I love argument. I love debate.' On that note, when do you want to scrim this week?"
+          " I like a bourbon like I like my scrims - existent! When do you want to scrim this week?"
+          " LingLing likes to flank, I like to run the country and Team Doublecross likes to scrim. When are you scrimming this week?"
+          " Remember to vote kids! (on when you want to scrim this week)"
+          " I like kids but I also like it when Team Doublecross scrims. When are you scrimming this week?",
+          " If we get 7 votes on a scrim this week Truth will heal for the whole scrim",
           ]
 
 client = discord.Client()
@@ -78,7 +78,7 @@ async def change_status():
 @tasks.loop(hours=168)
 async def send_weekly_message():
     message_channel = client.get_channel(485035231724699659)
-    await message_channel.send(random.choice(vote_message).format(client.team.mention))
+    await message_channel.send("<@&745591167193841749>" + random.choice(vote_message))
 
 keep_alive()
 client.run(os.getenv('Token'))
