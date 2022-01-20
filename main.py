@@ -7,13 +7,10 @@ from discord.utils import get
 
 status = [
           "Rule Britannia!",
-          "Go Conservatives!",
           "Eating a chocolate digestive",
-          "I've had more children that you can count",
+          "Having more children",
           "Busy running the greatest country in the world",
-          "Making brexit deals",
           "Hide your wife, I'm here!",
-          "Vote TORY!!!",
           "Boris Johnson is the most pro-gay option for the tories. Vote Boris!",
           "Reclaiming India", 
           "Reclaiming Canada",
@@ -33,14 +30,12 @@ status = [
           "Making a time machine",
           "Setting fire to london",
           "Holiday in Tienanmen square",
-          "twitch.tv/ukgov_official",
           "I'm a wet wipe",
-          "Falklands 2.0",
           "Streaming fortnite now at twitch.tv/ukgov_official",
           "Stay safe",
           "Wear a mask",
           "U-Turn baby!",
-          "Telling off hancock",
+          "Cancelling hancock",
           "Bullying Raab",
           "Deporting immigrants",
           "Listening to You'll Never Walk Alone by Tom Moore",
@@ -48,30 +43,18 @@ status = [
           "Hosting a party at number 10!",
           "Curing COVID",
           "Getting a vaccine",
-          "COVID is a haox",
-          "Eatin a vegan sausage roll",
+          "God save our queen",
+          "God save our NHS",
+          "Eating a vegan sausage roll",
           "My policy on cake is pro having it and pro eating it",
           "Ping-pong was invented on the dining tables of England in the 19th century, and it was called Wiff-waff!",
           "Other nations, looked at a dining table and saw an opportunity to have dinner; we looked at it an saw an opportunity to play Wiff-waff!",
-          "It is absolutely ridiculous that people should choose to go around looking like letter boxes"]
-
-vote_message = [
-          " Weekly scrim vote (vote tory)",
-          " When does everyone want to scrim this week? I think Wednesday is POG",
-          " To quote the Margret Thatcher, 'Defeat? I do not recognise the meaning of the word'. I think that sums up team doublecross very well. On that note, when do you want to scrim this week?"
-          " Scrim vote for this week",
-          " Any scrimmers? If so what day?",
-          " Boris reccommends at least 2 scrims this week! What days shall I put down for you",
-          " META promised me if i get 7 votes for a scrim one one day today, it will be a POG scrim. VOTE!!!",
-          " Remember everyone, vote! (for your scrim this week)",
-          " This weeks scrims will be different to normal, you will be practicing brawl...oh wait. Vote for what days you want!!",
-          " As the iron lady once said, 'I love argument. I love debate.' On that note, when do you want to scrim this week?",
-          " I like a bourbon like I like my scrims - existent! When do you want to scrim this week?"
-          " LingLing likes to flank, I like to run the country and Team Doublecross likes to scrim. When are you scrimming this week?",
-          " Remember to vote kids! (on when you want to scrim this week)",
-          " I like kids but I also like it when Team Doublecross scrims. When are you scrimming this week?",
-          " If we get 7 votes on a scrim this week Truth will heal for the whole scrim",
-          ]
+          "It is absolutely ridiculous that people should choose to go around looking like letter boxes",
+          "Jamming out on Downing street",
+          "I was NOT breaking any rules!",
+          "Bring your own booze",
+          "Enjoying a garden party",
+          "Lockdown won't stop me enjoying the nice weather!"]
 
 client = discord.Client()
 
