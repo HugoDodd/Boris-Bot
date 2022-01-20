@@ -64,14 +64,9 @@ async def on_ready():
   change_status.start()
   send_weekly_message.start()
   
-@tasks.loop(minutes=30)
+@tasks.loop(seconds=10)
 async def change_status():
     await client.change_presence(activity=discord.Game(random.choice(status)))
-
-@tasks.loop(hours=168)
-async def send_weekly_message():
-    message_channel = client.get_channel(485035231724699659)
-    await message_channel.send("<@&745591167193841749>" + " /tts" + random.choice(vote_message))
 
 keep_alive()
 client.run(os.getenv('Token'))
